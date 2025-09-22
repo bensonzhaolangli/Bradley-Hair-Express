@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./components/Header.jsx";
 import About from "./components/About.jsx";
 import Contact from "./components/Contact.jsx";
+import Footer from "./components/Footer.jsx";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
         <About />
         <Contact />
       </main>
+      <Footer />
     </>
   );
 }
