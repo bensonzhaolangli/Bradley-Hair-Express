@@ -351,6 +351,16 @@ select:focus-visible {
 /* =========================
    Media breakpoint adjustments
    ========================= */
+@media (max-width: 980px) {
+  .about__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 760px) {
   .nav-toggle {
     display: inline-grid;
